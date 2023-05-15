@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: coral;
+}
+table{
+    width: 60%;
+    background: #fff;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+thead{
+    background: lightcoral;
+    height: 40px;
+}
+tr{
+    text-align: center;
+    height: 30px;
+    transition: all ease 0.5s;
+}
+tr:nth-child(even){
+    background:lightcyan;
+}
+tr:hover{
+    background: coral;
+}
