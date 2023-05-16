@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
-    <form action="">
+    <form action="php/userdata.php" method="POST">
         <div class="fields">
-            <input type="text" placeholder="Student Name">
-            <input type="text" placeholder="Father Name">
-            <input type="text" placeholder="Class">
-            <input type="text" placeholder="Roll No.">
-            <input type="text" placeholder="Student ID">
-            <input type="text" placeholder="Phone Number">
+            <input type="text" name="studentname" placeholder="Student Name">
+            <input type="text" name="fathername"  placeholder="Father Name">
+            <input type="text" name="class"  placeholder="Class">
+            <input type="text" name="rollno"  placeholder="Roll No.">
+            <input type="text" name="studentID"  placeholder="Student ID">
+            <input type="text" name="phonenumber"  placeholder="Phone Number">
         </div>
-        <div class="option">
+        <div class="option" name="event"> 
             <select >
                 <option >Dance</option>
                 <option >Singing</option>
                 <option >Speech</option>
             </select>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" name="submitbtn">Submit</button>
     </form>
     
 </body>
